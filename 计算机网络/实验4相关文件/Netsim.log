@@ -1,0 +1,19 @@
+2018-08-28 14:29:48 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 14:39:57 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 14:43:17 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 14:43:38 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 14:48:20 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 14:50:59 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 15:01:13 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-28 15:57:02 - cmd: ping 202.38.77.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配
+2018-08-28 16:00:25 - cmd:     -- sql help space question() - 94 - 使用 Null 无效
+2018-08-28 16:00:25 - cmd:     -- sql help space question() - 94 - 使用 Null 无效
+2018-08-28 16:12:30 - cmd: ping 202.38.74.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配
+2018-08-28 16:43:09 - cmd: ip route 202.38.74.0 255.255.255.0 -- remove ip route() - 6 - 溢出
+2018-08-28 17:00:45 - cmd: ping 202.38.77.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配
+2018-08-28 18:30:55 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-29 12:19:54 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-29 14:04:29 - cmd:     -- load frmMain() - frmMain - 10013 - The requested address is a broadcast address, but flag is not set
+2018-08-29 14:13:49 - cmd: ping 202.38.73.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配
+2018-08-29 14:13:49 - cmd: ping 202.38.73.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配
+2018-08-29 14:18:56 - cmd: ping 202.38.77.1   -- test is 0 ip route packet() - frmDocument - 13 - 类型不匹配

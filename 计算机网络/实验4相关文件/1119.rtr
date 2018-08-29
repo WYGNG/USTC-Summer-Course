@@ -1,0 +1,34 @@
+
+!
+Version 12.1
+service timestamps debug uptime
+service timestamps log uptime
+no service password-encryption
+!
+hostname C:
+!
+!
+!
+ip subnet-zero
+!
+!
+!
+!
+interface Ethernet0
+ ip address 202.38.73.1 255.255.255.0
+ no ip directed-broadcast
+!
+!
+ip classless
+no ip http server
+ip route 0.0.0.0 0.0.0.0 202.38.73.254
+!
+!
+line con 0
+ transport input none
+line aux 0
+line vty 0 4
+!
+no scheduler allocate
+end
+exit

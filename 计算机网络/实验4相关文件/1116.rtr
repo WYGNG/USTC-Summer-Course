@@ -1,0 +1,60 @@
+
+!
+Version 12.1
+service timestamps debug uptime
+service timestamps log uptime
+no service password-encryption
+!
+hostname Switch
+ip name-server 0.0.0.0
+!
+!
+!
+ip subnet-zero
+spanning-tree extend system-id
+!
+!
+!
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+ vtp domain bigdomain
+interface Vlan 1
+ no ip address
+ no ip route-cache
+ shutdown
+!
+ip classless
+no ip http server
+!
+!
+line con 0
+ transport input none
+line aux 0
+line vty 0 15
+!
+no scheduler allocate
+end
+
